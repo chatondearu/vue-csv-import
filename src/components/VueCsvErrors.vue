@@ -1,5 +1,5 @@
 <template>
-    <slot :errors="VueCsvImportData.errors.value">
+    <slot :errors="VueCsvImportData.errors">
         <span
             v-bind="$attrs"
             v-for="error in VueCsvImportData.errors"
